@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--------Hero Section------------*/
+.hero-section{
+    background-image: url(/img/hero/spacejoy-9M66C_w_ToM-unsplash\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-btn{
+    padding: 8px 25px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.hero-box{
+    text-align: center;
+
+}
+
+/*------Latest work----------*/
+.latest-heading{
+    text-align: center;
+}
+
+/*-------Testimonial section-------*/
+.testimonial-sec{
+    background-color: #494949;
+}
+.testimonial-box{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    color: #f6f6f6;
+}
+
+/*--------Contact----------*/
+.contac-container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.form-box{
+   width: 50vw;
+   height: 100vh;
+}
+
+.form-box h2{
+    text-align: center;
+}
+.text-areaRw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-row{
+   display: flex;
+   justify-content: center;
+}
+.text-area{
+    width: 40%;
+}
+.form-btn{
+    
+
+}
