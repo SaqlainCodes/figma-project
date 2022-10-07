@@ -61,19 +61,29 @@
 .form-box h2{
     text-align: center;
 }
-.text-areaRw{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .form-row{
    display: flex;
    justify-content: center;
+
+}
+.input-60{
+    width: 59%;
+    margin-left: -36px;
 }
 .text-area{
-    width: 40%;
+    width: 100%;
 }
 .form-btn{
     
 
+}
+
+/*-------footer Box--------*/
+.footer-sec{
+    background-color: #dadada;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-around;
 }
