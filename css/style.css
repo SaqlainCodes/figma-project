@@ -105,3 +105,66 @@
     display: flex;
 }
     
+/*==============Furniture====================*/
+.sqare{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    background-color:#b9b6b6;
+    color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count-row{
+    justify-content: center;
+}
+.squre-col{
+    display: flex;
+    justify-content: center;
+}
+
+/*==========About Section============*/
+.History-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 63vh;
+    background-color: orangered;
+}
+
+.Team-row{
+    justify-content: space-around;
+    align-items: center;
+}
+.Team-row p{
+    text-align: center;
+
+}
+.Team-row h2{
+    text-align: center;
+}
+
+/*===========Testimonial Section==============*/
+.testimonial-section{
+    background-color: #494949;
+}
+.circle-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.testimonial-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-row p{
+    text-align: center;
+    color: #e0e0e0;
+}
