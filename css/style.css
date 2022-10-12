@@ -168,3 +168,17 @@
     text-align: center;
     color: #e0e0e0;
 }
+
+/*========Form Section=========*/
+.contact-box{
+    background: url(/img/contact-bg/contact.bg.png);
+    /*-
+ background-image: url(/img/contact-bg/contact.bg.png);--*/
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 80vh;
+}
+.contact-row{
+    display: flex;
+}
